@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>The Generics | Store</title>
+        <meta name="description" content="This is the description">
+        <link rel="stylesheet" href="styles.css" />
+        <script src="store.js" async></script>
+        <script>
+            function increaseFontSize() {
+                document.body.style.fontSize = "larger";
+            }
+            
+            function decreaseFontSize() {
+                document.body.style.fontSize = "smaller";
+            }
+        </script>
+    </head>
+    <body>
+
+        <section class="container content-section">
+            <div class="font-size-buttons">
+                <button onclick="increaseFontSize()">+</button>
+                <button onclick="decreaseFontSize()">-</button>
+            </div>
+            <h2 class="section-header">Our Products</h2>
+            <div class="shop-items">
+                    <span class="shop-item-title">Threadmill</span>
+                    <img class="shop-item-image" src="Images/threadmill.png">
+                    <div class="shop-item-details">
+                        <span class="shop-item-price">LKR.150,000</span>
+                        <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                    </div>
+                </div>
+                <div class="shop-item">
+                    <span class="shop-item-title">Dumbbell</span>
+                    <img class="shop-item-image" src="Images/dumbbell.png">
+                    <div class="shop-item-details">
+                        <span class="shop-item-price">LKR.12,000</span>
+                        <button class="btn btn-primary shop-item-button"type="button">ADD TO CART</button>
+                    </div>
+                </div>
+                <div class="shop-item">
+                    <span class="shop-item-title">Resistance Band</span>
+                    <img class="shop-item-image" src="Images/resistace bands.png">
+                    <div class="shop-item-details">
+                        <span class="shop-item-price">LKR.3000</span>
+                        <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                    </div>
+                </div>
+                <div class="shop-item">
+                    <span class="shop-item-title">Rowing Machine</span>
+                    <img class="shop-item-image" src="Images/rowing machine.png">
+                    <div class="shop-item-details">
+                        <span class="shop-item-price">LKR.120,000</span>
+                        <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                    </div>
+                </div>
+                <div class="shop-item">
+                    <span class="shop-item-title">Barbell</span>
+                    <img class="shop-item-image" src="Images/barbell.png">
+                    <div class="shop-item-details">
+                        <span class="shop-item-price">LKR.15,000</span>
+                        <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                    </div>
+                </div>
+                <div class="shop-item">
+                    <span class="shop-item-title">Leg press</span>
+                    <img class="shop-item-image" src="Images/leg press.png">;
+                    <div class="shop-item-details">
+                        <span class="shop-item-price">LKR.100,000</span>
+                        <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                    </div>
+                </div>
+                <div class="shop-item">
+                    <span class="shop-item-title">Bench</span>
+                    <img class="shop-item-image" src="Images/bench.png">
+                    <div class="shop-item-details">
+                        <span class="shop-item-price">LKR.12,000</span>
+                        <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                    </div>
+                </div>
+                <div class="shop-item">
+                    <span class="shop-item-title">Shoulder Press</span>
+                    <img class="shop-item-image" src="Images/shoulder press.png">
+                    <div class="shop-item-details">
+                        <span class="shop-item-price">LKR.60,000</span>
+                        <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                    </div>
+                </div>
+                <div class="shop-item">
+                    <span class="shop-item-title">Smith Machine</span>
+                    <img class="shop-item-image" src="Images/smith machine.png">
+                    <div class="shop-item-details">
+                        <span class="shop-item-price">LKR.80,000</span>
+                        <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="container content-section">
+            <h2 class="section-header">FITNESS-BOT exclusive MERCH</h2>
+            <div class="shop-items">
+                <div class="shop-item">
+                    <span class="shop-item-title">T-Shirt</span>
+                    <img class="shop-item-image" src="Images/shirt.png">
+                    <div class="shop-item-details">
+                        <span class="shop-item-price">LKR.2000</span>
+                        <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                    </div>
+                </div>
+                <div class="shop-item">
+                    <span class="shop-item-title">Shaker Bottle</span>
+                    <img class="shop-item-image" src="Images/shaker.png">
+                    <div class="shop-item-details">
+                        <span class="shop-item-price">LKR.200</span>
+                        <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                    </div>
+                </div>
+                <div class="shop-item">
+                    <span class="shop-item-title">Power Band</span>
+                    <img class="shop-item-image" src="Images/band.png">
+                    <div class="shop-item-details">
+                        <span class="shop-item-price">LKR.200</span>
+                        <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                    </div>
+                </div>
+                <div class="shop-item">
+                    <span class="shop-item-title">Cap</span>
+                    <img class="shop-item-image" src="Images/cap.png">
+                    <div class="shop-item-details">
+                        <span class="shop-item-price">LKR.600</span>
+                        <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                    </div>
+                </div>
+                <div class="shop-item">
+                    <span class="shop-item-title">Hoodie</span>
+                    <img class="shop-item-image" src="Images/hoodie.png">
+                    <div class="shop-item-details">
+                        <span class="shop-item-price">LKR.4500</span>
+                        <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                    </div>
+                </div>
+                <div class="shop-item">
+                    <span class="shop-item-title">Duffel Bag</span>
+                    <img class="shop-item-image" src="Images/duffle bag.png">
+                    <div class="shop-item-details">
+                        <span class="shop-item-price">LKR.5000</span>
+                        <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="container content-section">
+            <h2 class="section-header">CART</h2>
+            <div class="cart-row">
+                <span class="cart-item cart-header cart-column">ITEM</span>
+                <span class="cart-price cart-header cart-column">PRICE</span>
+                <span class="cart-quantity cart-header cart-column">QUANTITY</span>
+            </div>
+            <div class="cart-items">
+            </div>
+            <div class="cart-total">
+                <strong class="cart-total-title">Total</strong>
+                <span class="cart-total-price">$0</span>
+            </div>
+            <button class="btn btn-primary btn-purchase" type="button">PURCHASE</button>
+        </section>
+
+    </body>
+</html>
